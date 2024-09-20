@@ -1,0 +1,36 @@
+
+.Head{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 10px;
+}
+
+.logo{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+    padding-left: 100px;
+
+}
+
+.headerTwo{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    gap: 100px;
+    padding-right: 100px;
+
+}
+
+.headerTwo a {
+    text-decoration: none;
+}

@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Education from './pages/Education'
+import Footer from "./pages/Footer";
+import "./App.css"
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/skills" element = {<Skills/>}/>
         <Route path="/education" element = {<Education/>}/>
       </Routes>
+      <Footer/>
     </>
   );
 }
