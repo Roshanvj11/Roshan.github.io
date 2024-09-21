@@ -1,0 +1,124 @@
+.Skill{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 80vh;
+}
+.skillHeading{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+}
+.skillcontent{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.leftContent,
+.rightcontent{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* height: 70vh; */
+    width: 50%;
+    padding: 10px;
+    gap: 20px;
+}
+.leftInnerContent{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10px; */
+
+}
+.leftPhoto{
+    border: 1px solid black;
+    /* height: 180px; */
+    width: 20%;
+}
+.leftQuotes{
+    border: 1px solid black;
+    /* height: 180px; */
+    width: 80%;
+}
+.leftQuotes h3{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.leftQuotes p{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.rightInnerContent{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.rightPara{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+.leftPara{
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+#html{
+    border: 1px solid black;
+    width: 75%;
+}
+#css{
+    border: 1px solid black;
+    width: 70%;
+}
+#javascript{
+    border: 1px solid black;
+    width: 68%;
+}
+#react{
+    border: 1px solid black;
+    width: 63%;
+}
+#node{
+    border: 1px solid black;
+    width: 60%;
+}
+#express{
+    border: 1px solid black;
+    width: 60%;
+}
+#mongodb{
+    border: 1px solid black;
+    width: 68%;
+}
+#python{
+    border: 1px solid black;
+    width: 50%;
+}
