@@ -108,8 +108,8 @@ export default function Education() {
               <div className='internSoftware'>
                 <p>react js</p>
                 <p>Node js</p>
-                <p>mongoDB</p>
                 <p>Express js</p>
+                <p>mongoDB</p>
               </div>
 
               <div className='internPara'>
