@@ -14,7 +14,7 @@ export default function Navbar() {
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
         <Link to='/skills'>Skills</Link>
-        <Link to='/education'>Education</Link>
+        <Link to='/education'>Education & Internships</Link>
       </div>
    
 

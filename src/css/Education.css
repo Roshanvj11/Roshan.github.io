@@ -1,0 +1,117 @@
+.Education {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+#eduHeading {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.eduContent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 70vh;
+    gap: 10px;
+}
+
+.eduContentOne,
+.eduContentTwo {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.Qualification{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.qualificationHead {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    padding: 10px;
+}
+
+.qualificationContent {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qualificationTable {
+    border: 1px solid black;
+
+}
+.qualificationTable td {
+    border: 1px solid black;
+    padding: 14px;
+}
+.internship {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.internHead {
+    border: 1px solid black;
+    padding: 10px;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.internshipContent{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.internCompany{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.internSoftware{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.internSoftware p{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.internPara{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 22px;
+}

@@ -8,7 +8,7 @@ export default function Footer() {
             No 54, Vedha koil street, konganthan Parai, Tirunelveli, Tamilnadu - 627007
         </p>
         <p>
-            6383437403
+        <a href="tel:6383437403">6383437403</a>
         </p>
     </div>
   )
