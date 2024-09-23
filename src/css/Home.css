@@ -6,6 +6,7 @@
     align-items: center;
     gap: 50px;
     padding: 10px;
+    background-image: url("A:\Roshan\My Portfolio\portfolio\src\images\bc.jpg");
     height: 80vh;
 }
 
@@ -15,7 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 50%; */
     padding: 10px;
     gap: 10px;
 }
@@ -50,8 +50,31 @@
 .third h1 {
     animation-name: head1;
     animation-duration: 1s;
+    font-weight: 600;
+    font-size: xx-large;
 
 }
+#roshan{
+    color: #ff4000;
+    font-weight: 700;
+}
+#reactjs{
+    color: #251d9d;
+    font-weight: 700;
+    animation: blink 1.5s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+
 
 @keyframes head1 {
     0% {
@@ -72,6 +95,8 @@
 .second h1 {
     animation-name: head2;
     animation-duration: 1s;
+    font-weight: 600;
+
 
 }
 
@@ -93,6 +118,7 @@
 
 .btn1 {
     animation-name: button1;
+    background-color: #FF885B;
     animation-duration: 1s;
 }
 
@@ -213,7 +239,7 @@
     position:absolute ;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#40c9ff,#e81cff);
+    background-image: linear-gradient(#FFEB00,#f200ff);
     border-radius: 50%;
 }
 .homeImage2 span:nth-child(1){
