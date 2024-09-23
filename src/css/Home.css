@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     padding: 10px;
     height: 80vh;
 }
@@ -26,27 +26,6 @@
     padding: 10px;
 }
 
-.homeImage {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-
-}
-
-.homeImage2 {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-}
 
 .homeButton {
     border: 1px solid black;
@@ -131,15 +110,16 @@
 
 @keyframes button2 {
     0% {
-        transform: translate(200px,0px);
+        transform: translate(200px, 0px);
         opacity: 0;
     }
 }
 
-.para1{
+.para1 {
     animation-name: para1;
     animation-duration: 1s;
 }
+
 @keyframes para1 {
     0% {
         transform: translate(-200px, 0px);
@@ -147,17 +127,19 @@
     }
 }
 
-.para2{
+.para2 {
     animation-name: para2;
     animation-duration: 1s;
 }
+
 @keyframes para2 {
     0% {
         transform: translate(0px, 200px);
         opacity: 0;
     }
 }
-.para3{
+
+.para3 {
     animation-name: para3;
     animation-duration: 1s;
 }
@@ -167,4 +149,80 @@
         transform: translate(200px, 0px);
         opacity: 0;
     }
+}
+
+.homeImage {
+    background-image: linear-gradient(#40c9ff,#e81cff);
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+              
+}
+
+@keyframes animate {
+    from {
+        opacity: 0.3;
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.homeImage2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.homeImage2::after {
+    background-color: white;
+    content: " ";
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    left: 14px;
+    bottom: 14px;
+    border-radius: 50%;
+    background-image: url("C:\Users\manor\OneDrive\Documents\Desktop\Roshan photo.jpg"); /* Background image here */
+    background-size: cover;  /* Ensures the image covers the circle */
+    background-position: 20% 15%; /* Centers the image within the div */
+    background-repeat: right top; /* Prevents the image from repeating */
+    overflow: hidden;
+    transform: scaleX(-1);
+
+}
+.homeImage2 span{
+    position:absolute ;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#40c9ff,#e81cff);
+    border-radius: 50%;
+}
+.homeImage2 span:nth-child(1){
+    filter: blur(5px);
+}
+.homeImage2 span:nth-child(2){
+    filter: blur(10px);
+}.homeImage2 span:nth-child(3){
+    filter: blur(20px);
+}.homeImage2 span:nth-child(4){
+    filter: blur(50px);
 }
