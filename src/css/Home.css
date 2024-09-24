@@ -250,7 +250,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#f5ea75, #ffab24);
+    background-image: linear-gradient(#f5ea75, #ffcd7d);
     border-radius: 50%;
 }
 
@@ -272,13 +272,13 @@
 
 @media (max-width: 480px) {
     .Home {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
     }
 
     .homeImage {
-        background-image: linear-gradient(#40c9ff, #e81cff);
+        /* background-image: linear-gradient(#40c9ff, #e81cff); */
         /* border: 1px solid black; */
         display: flex;
         justify-content: center;
@@ -341,11 +341,35 @@
 
     }
     
-    .homeContent,
-    .homeButton,
-    .homeNavigation,
+    
     .headings{
-        width: 80%;
+        
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .homeButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn1{
+        width: 100px;
+    }
+    .btn2{
+        width: 100px;
+    }
+    .homeNavigation{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .headings h1{
@@ -354,6 +378,5 @@
     .homeButton Button{
         height: 30px;
     }
-
-
+  
 }

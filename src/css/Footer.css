@@ -15,12 +15,17 @@
 
 #phno{
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: whitesmoke;
+    gap: 10px;
 }
 
 @media (max-width: 480px) {
     .footer {
-        width: 80%;
+        width: 100%;
  
     }
 }
