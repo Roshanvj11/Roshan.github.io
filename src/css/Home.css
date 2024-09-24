@@ -6,12 +6,12 @@
     align-items: center;
     gap: 50px;
     padding: 10px;
-    background-image: url("A:\Roshan\My Portfolio\portfolio\src\images\bc.jpg");
+    background-image: url("../images/bc.jpg");
     height: 80vh;
 }
 
 .homeContent {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,14 +21,14 @@
 }
 
 .headings {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 400px;
     padding: 10px;
 }
 
 
 .homeButton {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -38,11 +38,11 @@
 }
 
 .homeNavigation {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 400px;
 }
 
@@ -54,25 +54,30 @@
     font-size: xx-large;
 
 }
-#roshan{
+
+#roshan {
     color: #ff4000;
     font-weight: 700;
 }
-#reactjs{
+
+#reactjs {
     color: #251d9d;
     font-weight: 700;
     animation: blink 1.5s infinite;
 }
+
 @keyframes blink {
     0% {
         opacity: 1;
-      }
-      50% {
+    }
+
+    50% {
         opacity: 0.5;
-      }
-      100% {
+    }
+
+    100% {
         opacity: 1;
-      }
+    }
 }
 
 
@@ -178,7 +183,7 @@
 }
 
 .homeImage {
-    background-image: linear-gradient(#40c9ff,#e81cff);
+    background-image: linear-gradient(#40c9ff, #e81cff);
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
@@ -192,14 +197,15 @@
     animation-timing-function: linear;
     animation-iteration-count: 1;
 
-              
+
 }
 
 @keyframes animate {
     from {
         opacity: 0.3;
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -227,28 +233,127 @@
     left: 14px;
     bottom: 14px;
     border-radius: 50%;
-    background-image: url("C:\Users\manor\OneDrive\Documents\Desktop\Roshan photo.jpg"); /* Background image here */
-    background-size: cover;  /* Ensures the image covers the circle */
-    background-position: 20% 15%; /* Centers the image within the div */
-    background-repeat: right top; /* Prevents the image from repeating */
+    background-image: url("C:\Users\manor\OneDrive\Documents\Desktop\Roshan photo.jpg");
+    /* Background image here */
+    background-size: cover;
+    /* Ensures the image covers the circle */
+    background-position: 20% 15%;
+    /* Centers the image within the div */
+    background-repeat: right top;
+    /* Prevents the image from repeating */
     overflow: hidden;
     transform: scaleX(-1);
 
 }
-.homeImage2 span{
-    position:absolute ;
+
+.homeImage2 span {
+    position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#FFEB00,#f200ff);
+    background-image: linear-gradient(#f5ea75, #ffab24);
     border-radius: 50%;
 }
-.homeImage2 span:nth-child(1){
+
+.homeImage2 span:nth-child(1) {
     filter: blur(5px);
 }
-.homeImage2 span:nth-child(2){
+
+.homeImage2 span:nth-child(2) {
     filter: blur(10px);
-}.homeImage2 span:nth-child(3){
+}
+
+.homeImage2 span:nth-child(3) {
     filter: blur(20px);
-}.homeImage2 span:nth-child(4){
+}
+
+.homeImage2 span:nth-child(4) {
     filter: blur(50px);
+}
+
+@media (max-width: 480px) {
+    .Home {
+        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .homeImage {
+        background-image: linear-gradient(#40c9ff, #e81cff);
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 50%;
+        top: 20px;
+        width: 180px;
+        height: 180px;
+        animation-name: animate;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+
+    }
+
+    @keyframes animate {
+        from {
+            opacity: 0.3;
+            transform: rotate(180deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .homeImage2 {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .homeImage2::after {
+        background-color: white;
+        content: " ";
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        left: 14px;
+        bottom: 14px;
+        border-radius: 50%;
+        background-image: url("C:\Users\manor\OneDrive\Documents\Desktop\Roshan photo.jpg");
+        /* Background image here */
+        background-size: cover;
+        /* Ensures the image covers the circle */
+        background-position: 20% 15%;
+        /* Centers the image within the div */
+        background-repeat: right top;
+        /* Prevents the image from repeating */
+        overflow: hidden;
+        transform: scaleX(-1);
+
+    }
+    
+    .homeContent,
+    .homeButton,
+    .homeNavigation,
+    .headings{
+        width: 80%;
+    }
+
+    .headings h1{
+        font-size: 1.1rem;
+    }
+    .homeButton Button{
+        height: 30px;
+    }
+
+
 }

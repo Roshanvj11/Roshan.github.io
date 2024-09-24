@@ -1,26 +1,41 @@
 
 .Head{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
     padding: 10px;
-}
+    width: 100%;
+    background-color:#1B3C73;
 
+}
+.headLink{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+ 
 .logo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    width: 200px;
     height: 10vh;
-    padding-left: 100px;
-
+    
+}
+.logo h2{
+    font-weight: 900;
+    font-size: 30px;
+    color: #FF6600;
+    text-shadow: 1px 1px 4px #030d20;
 }
 
 .headerTwo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,9 +43,46 @@
     height: 10vh;
     gap: 100px;
     padding-right: 100px;
+   
 
 }
 
 .headerTwo a {
     text-decoration: none;
 }
+
+.dropdown{
+    display: none;
+}
+
+@media (max-width: 480px){
+
+    .Head{
+        width: 80%;
+    }
+
+    .dropdown {
+        visibility: visible;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .headerTwo1.hidden {
+        display: none;
+      }
+    
+      .headerTwo1.visible {
+        display: block;
+      }
+      .headerTwo{
+        display: none;
+      }
+    
+    }
+
+    .secondlink{
+        color: #1B3C73;
+    }

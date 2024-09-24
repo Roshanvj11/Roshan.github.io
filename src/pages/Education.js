@@ -94,7 +94,7 @@ export default function Education() {
 
             <div className='internHead'>
               <h2>
-                Intership
+                Internship
               </h2>
             </div>
 
