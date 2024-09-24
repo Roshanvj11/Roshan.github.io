@@ -36,11 +36,11 @@ export default function Home() {
         </div>
         <div className='homeButton'>
           <a href='https://www.linkedin.com/in/roshan-443070262/'>
-            <Button className='btn1' variant="contained" sx={{ backgroundColor: '#FF9100' }}>
+            <Button className='btn1' variant="contained" sx={{ backgroundColor: '#ff4000' }}>
               <NavigationIcon className='btnsize' sx={{ marginRight: '6px', fontSize: '16px', textAlign: 'center' }} />Hire
             </Button>
           </a>
-          <Button className='btn2' variant="contained" onClick={handleResume}>
+          <Button className='btn2' variant="contained" sx={{ backgroundColor:'#251d9d'}} onClick={handleResume}>
             <ArrowDownwardIcon className='btnsize' sx={{ marginRight: '6px', fontSize: '16px', textAlign: 'center' }} />Resume
           </Button>
         </div>
