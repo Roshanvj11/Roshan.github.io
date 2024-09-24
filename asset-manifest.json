@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Roshan.github.io/static/css/main.fc24faf4.css",
-    "main.js": "/Roshan.github.io/static/js/main.8364359a.js",
+    "main.css": "/Roshan.github.io/static/css/main.3f68c92c.css",
+    "main.js": "/Roshan.github.io/static/js/main.7cf51dc6.js",
     "static/js/453.1407b060.chunk.js": "/Roshan.github.io/static/js/453.1407b060.chunk.js",
     "static/media/Roshan photo.jpg": "/Roshan.github.io/static/media/Roshan photo.636f0a5a01e9a805dd24.jpg",
     "static/media/bc.jpg": "/Roshan.github.io/static/media/bc.c06ebb412f9aa45ba194.jpg",
     "index.html": "/Roshan.github.io/index.html",
-    "main.fc24faf4.css.map": "/Roshan.github.io/static/css/main.fc24faf4.css.map",
-    "main.8364359a.js.map": "/Roshan.github.io/static/js/main.8364359a.js.map",
+    "main.3f68c92c.css.map": "/Roshan.github.io/static/css/main.3f68c92c.css.map",
+    "main.7cf51dc6.js.map": "/Roshan.github.io/static/js/main.7cf51dc6.js.map",
     "453.1407b060.chunk.js.map": "/Roshan.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc24faf4.css",
-    "static/js/main.8364359a.js"
+    "static/css/main.3f68c92c.css",
+    "static/js/main.7cf51dc6.js"
   ]
 }
