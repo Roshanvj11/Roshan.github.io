@@ -1,5 +1,5 @@
 .About {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
@@ -23,7 +23,7 @@
 /* width: 100%;
     padding: 20px; */
 /* } */
-*/
+
 /* .AboutInnerContent {
     border: 1px solid black;
     display: flex;
@@ -35,7 +35,7 @@
 } */
 
 .aboutImage {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
