@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/Roshan.github.io/static/css/main.47b7cce2.css",
-    "main.js": "/Roshan.github.io/static/js/main.12b156f5.js",
+    "main.css": "/Roshan.github.io/static/css/main.082b64bc.css",
+    "main.js": "/Roshan.github.io/static/js/main.13dd2df0.js",
     "static/js/453.1407b060.chunk.js": "/Roshan.github.io/static/js/453.1407b060.chunk.js",
+    "static/media/Roshan.jpg": "/Roshan.github.io/static/media/Roshan.3ebc34046d999c2f1d9c.jpg",
     "static/media/Roshan photo.jpg": "/Roshan.github.io/static/media/Roshan photo.636f0a5a01e9a805dd24.jpg",
+    "static/media/react.png": "/Roshan.github.io/static/media/react.813d68745bb1c19c9575.png",
+    "static/media/nodejs.png": "/Roshan.github.io/static/media/nodejs.6dcb45720fffa1f2d127.png",
+    "static/media/express.png": "/Roshan.github.io/static/media/express.017234a107156b1452ee.png",
     "static/media/bc.jpg": "/Roshan.github.io/static/media/bc.c06ebb412f9aa45ba194.jpg",
     "static/media/men1.png": "/Roshan.github.io/static/media/men1.7230840360e395c4f588.png",
     "static/media/responsive.png": "/Roshan.github.io/static/media/responsive.48aec0dc7326d29c9bf7.png",
     "static/media/technology.jpg": "/Roshan.github.io/static/media/technology.8f9e43c13a62f5a609cd.jpg",
     "index.html": "/Roshan.github.io/index.html",
-    "main.47b7cce2.css.map": "/Roshan.github.io/static/css/main.47b7cce2.css.map",
-    "main.12b156f5.js.map": "/Roshan.github.io/static/js/main.12b156f5.js.map",
+    "main.082b64bc.css.map": "/Roshan.github.io/static/css/main.082b64bc.css.map",
+    "main.13dd2df0.js.map": "/Roshan.github.io/static/js/main.13dd2df0.js.map",
     "453.1407b060.chunk.js.map": "/Roshan.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b7cce2.css",
-    "static/js/main.12b156f5.js"
+    "static/css/main.082b64bc.css",
+    "static/js/main.13dd2df0.js"
   ]
 }
