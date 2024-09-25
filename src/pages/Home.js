@@ -6,19 +6,20 @@ import EmailIcon from '@mui/icons-material/Email';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import NavigationIcon from '@mui/icons-material/Navigation';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-import { saveAs } from 'file-saver';
+// import { saveAs } from 'file-saver';
+import handleResume from './Resume';
 import "../css/Home.css"
 
 export default function Home() {
-  const handleResume = () => {
+  // const handleResume = () => {
 
-    const pdfBlob = new Blob(
-      ['Roshan vijay Resume'],
-      { type: 'application/pdf' }
-    );
+  //   const pdfBlob = new Blob(
+  //     ['Roshan vijay Resume'],
+  //     { type: 'application/pdf' }
+  //   );
 
-    saveAs(pdfBlob,"Roshan Vijay Resume.pdf")
-  }
+  //   saveAs(pdfBlob,"Roshan Vijay Resume.pdf")
+  // }
   return (
 
     <div className='Home'>

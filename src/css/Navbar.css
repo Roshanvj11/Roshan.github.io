@@ -52,7 +52,7 @@
 }
 
 .dropdown{
-    display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 480px){

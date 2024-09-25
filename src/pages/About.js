@@ -1,20 +1,22 @@
 import React from 'react'
+import Button from '@mui/material/Button';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+import Men from '../images/men1.png';
+import handleResume from './Resume';
 import "../css/About.css"
 
 export default function About() {
   return (
     <div className='About' >
 
-      <div className='aboutQuotes'>
-        <h1>Fueled by curiosity, driven by innovation.</h1>
-      </div>
+      {/* <div className='aboutQuotes'>
+        <h1>Fueled by curiosity,driven by innovation</h1>
+      </div> */}
 
-      <div className='AboutInnerContent'>
+      {/* <div className='AboutInnerContent'> */}
 
         <div className='aboutImage'>
-          <p>
-            Image
-          </p>
+          <img src={Men} alt='men'/>
         </div>
 
         <div className='aboutContent'>
@@ -41,7 +43,7 @@ export default function About() {
                 <td><a href='https://mail.google.com/mail/?view=cm&to=sroshanvijay@gmail.com&su=Subject&body=BodyText'>sroshanvijay@gmail.com</a></td>
               </tr>
               <tr>
-                <td>Linkdin</td>
+                <td>Linkedin</td>
                 <td>:</td>
                 <td><a href='https://www.linkedin.com/in/roshan-443070262/'>https://www.linkedin.com/in/roshan-443070262/</a></td>
               </tr>
@@ -58,12 +60,14 @@ export default function About() {
             </table>
           </div>
           <div className='aboutDownload'>
-            <button>Download CV</button>
+            <Button className='downloadbtn' variant="contained" onClick={handleResume} sx={{ backgroundColor: '#ff4000',fontSize:'12px' }}>
+             <ArrowCircleDownIcon sx={{marginRight:"10px"}}/> download Cv
+            </Button>
           </div>
 
         </div>
 
-      </div>
+      {/* </div> */}
 
     </div>
   )
