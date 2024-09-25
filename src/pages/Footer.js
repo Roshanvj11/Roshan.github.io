@@ -1,5 +1,5 @@
 import React from 'react'
-import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
+// import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import "../css/Footer.css"
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
             No 54, Vedha koil street, konganthan Parai, Tirunelveli, Tamilnadu 
         </p>
         <p >
-        <a id='phno' href="tel:6383437403"><CallOutlinedIcon/> 6383437403</a>
+        <a id='phno' href="tel:6383437403">6383437403</a>
         </p>
     </div>
   )

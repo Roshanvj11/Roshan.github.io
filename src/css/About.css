@@ -172,7 +172,8 @@
     }
 }
 
-.aboutSummary p {
+.aboutSummary p ,
+table td {
     animation-name: summary;
     animation-duration: 1s;
 }

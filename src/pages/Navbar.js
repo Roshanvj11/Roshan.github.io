@@ -35,7 +35,7 @@ export default function Navbar() {
         <Link className='headLink' to='/'>Home</Link>
         <Link className='headLink' to='/about'>About</Link>
         <Link className='headLink' to='/skills'>Skills</Link>
-        <Link className='headLink' to='/education'>Education & Internships</Link>
+        <Link className='headLink' to='/education'>Education </Link>
 
       </div>
 

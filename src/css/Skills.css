@@ -139,11 +139,33 @@
     padding: 10px;
 }
 
+.skillHeading h1 {
+    animation-name: skillHead;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes skillHead {
+    0% {
+        transform: translate(-200px,0px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .leftPhoto img{
     animation-name: leftPhoto;
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
+
  @keyframes leftPhoto {
     0%{
         opacity: 0;
@@ -156,7 +178,8 @@
     }
 }
 
-.leftQuotes h3{
+.leftQuotes h3,
+.skillHeading p{
     animation-name: leftQuoteh3;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -165,6 +188,26 @@
     0%{
         transform: translate(200px,0px);
         opacity: 0.5;
+    }
+}
+.leftQuotes p {
+    animation-name: summary;
+    animation-duration: 1s;
+}
+
+@keyframes summary {
+    0% {
+        transform: translate(0px, 0px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
     }
 }
 
