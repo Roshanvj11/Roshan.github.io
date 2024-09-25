@@ -1,4 +1,7 @@
 import React from 'react'
+import Design from '../images/design.jpeg'
+import Technology from '../images/technology.jpg'
+import Responsive from '../images/responsive.png'
 import "../css/Skills.css"
 
 export default function Skills() {
@@ -21,7 +24,7 @@ export default function Skills() {
           <div className='leftInnerContent'>
 
             <div className='leftPhoto'>
-              <p>photo</p>
+            <img src={Design} alt=''/>
             </div>
 
             <div className='leftQuotes'>
@@ -29,7 +32,7 @@ export default function Skills() {
                 Design + Development
               </h3>
               <p>
-                Clean, modern designs - optimized for performance, search engines, and converting users to customers
+                Clean, modern designs - optimized for performance, search engines, and converting users to customers.
               </p>
             </div>
 
@@ -38,7 +41,7 @@ export default function Skills() {
           <div className='leftInnerContent'>
 
             <div className='leftPhoto'>
-              <p>photo</p>
+            <img src={Technology} alt=''/>
             </div>
 
             <div className='leftQuotes'>
@@ -54,7 +57,7 @@ export default function Skills() {
           <div className='leftInnerContent'>
 
             <div className='leftPhoto'>
-              <p>photo</p>
+            <img src={Responsive} alt=''/>
             </div>
 
             <div className='leftQuotes'>
@@ -74,7 +77,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='html'>
-              <p className='rightPara'>
+              <p className='rightPara htmlPara'>
                 HTML
               </p>
             </div>
@@ -90,7 +93,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='css'>
-              <p className='rightPara'>
+              <p className='rightPara cssPara'>
                 Css
               </p>
             </div>
@@ -106,7 +109,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='javascript'>
-              <p className='rightPara'>
+              <p className='rightPara javascriptPara'>
                 Javascript
               </p>
             </div>
@@ -122,7 +125,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='react'>
-              <p className='rightPara'>
+              <p className='rightPara reactPara'>
                 React Js
               </p>
             </div>
@@ -138,7 +141,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='node'>
-              <p className='rightPara'>
+              <p className='rightPara nodePara'>
                 Node Js
               </p>
             </div>
@@ -154,7 +157,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='express'>
-              <p className='rightPara'>
+              <p className='rightPara expressPara'>
                 Express Js
               </p>
             </div>
@@ -170,7 +173,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='mongodb'>
-              <p className='rightPara'>
+              <p className='rightPara mongoPara'>
                 Mongo DB
               </p>
             </div>
@@ -186,7 +189,7 @@ export default function Skills() {
           <div className='rightInnerContent'>
 
             <div id='python'>
-              <p className='rightPara'>
+              <p className='rightPara pythonPara'>
                 Python
               </p>
             </div>
