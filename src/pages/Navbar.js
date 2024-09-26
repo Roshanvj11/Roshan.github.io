@@ -48,7 +48,7 @@ export default function Navbar() {
           className='dropdown'
           onClick={handleClick}
         >
-          <DensityMediumIcon sx={{color:'whitesmoke'}}/>
+          <DensityMediumIcon sx={{ color: 'whitesmoke' }} />
         </Button>
         <Menu
           id="fade-menu"
@@ -59,18 +59,25 @@ export default function Navbar() {
           open={open}
           onClose={handleClose}
           TransitionComponent={Fade}
+          PaperProps={{
+            style: {
+              minWidth: '100px',
+            },
+          }}
         >
-          <MenuItem onClick={handleClose}>
+          <MenuItem sx={{ justifyContent: 'center' }} onClick={handleClose}>
             <Link className='headLink secondlink' to='/'>Home</Link>
           </MenuItem>
-          <MenuItem onClick={handleClose}>
-            <Link className='headLink secondlink'  to='/about'>About</Link>
+          <MenuItem sx={{ justifyContent: 'center' }} onClick={handleClose}>
+            <Link className='headLink secondlink' to='/about'>About</Link>
           </MenuItem>
-          <MenuItem onClick={handleClose}>       
-          <Link className='headLink secondlink' to='/skills'>Skills</Link>
+          <MenuItem sx={{ justifyContent: 'center' }} onClick={handleClose}>
+            <Link className='headLink secondlink' to='/skills'>Skills</Link>
           </MenuItem>
+          <MenuItem  sx={{ justifyContent: 'center' }} onClick={handleClose}>
           <Link className='headLink secondlink' to='/education'>Education</Link>
-          </Menu>
+          </MenuItem>
+        </Menu>
       </div>
 
     </div>
