@@ -328,11 +328,11 @@
         left: 14px;
         bottom: 14px;
         border-radius: 50%;
-        background-image: url("C:\Users\manor\OneDrive\Documents\Desktop\Roshan photo.jpg");
+        background-image: url("../images/Roshan.jpg");
         /* Background image here */
         background-size: cover;
         /* Ensures the image covers the circle */
-        background-position: 20% 15%;
+        /* background-position: 20% 15%; */
         /* Centers the image within the div */
         background-repeat: right top;
         /* Prevents the image from repeating */
@@ -349,7 +349,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
     }
     .homeButton {
         display: flex;
@@ -370,6 +370,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        width: 90%;
     }
 
     .headings h1{

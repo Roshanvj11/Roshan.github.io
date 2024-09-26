@@ -29,7 +29,7 @@ export default function Education() {
 
             <div className='qualificationContent' >
 
-              <table className='qualificationTable'>
+              <table className='qualificationTable '>
 
                 <tr>
                   <td>St.John's College</td>
