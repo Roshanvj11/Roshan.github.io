@@ -8,4 +8,6 @@ export default function handleResume() {
       );
   
       saveAs(pdfBlob,"Roshan Vijay Resume.pdf")
+
+      console.log('pdfBlob', pdfBlob)
 }
