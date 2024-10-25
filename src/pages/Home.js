@@ -7,19 +7,19 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import NavigationIcon from '@mui/icons-material/Navigation';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 // import { saveAs } from 'file-saver';
-import handleResume from './Resume';
 import "../css/Home.css"
 
 export default function Home() {
-  // const handleResume = () => {
+  const handleResume = () => {
 
-  //   const pdfBlob = new Blob(
-  //     ['Roshan vijay Resume'],
-  //     { type: 'application/pdf' }
-  //   );
-
-  //   saveAs(pdfBlob,"Roshan Vijay Resume.pdf")
-  // }
+    const resumeUrl = "http://localhost:3000/Roshan Vijay Resume.pdf";
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Roshan Vijay Resume.pdf"; // This suggests the filename for download
+    document.body.appendChild(link); // Append to body to ensure it works in all browsers
+    link.click(); // Programmatically click the link to trigger the download
+    document.body.removeChild(link); // Clean up the DOM
+  }
   return (
 
     <div className='Home'>
