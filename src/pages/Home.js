@@ -11,8 +11,8 @@ import "../css/Home.css"
 
 export default function Home() {
   const handleResume = () => {
-
-    const resumeUrl = "http://localhost:3000/Roshan Vijay Resume.pdf";
+    const resumeUrl = "https://Roshanvj11.github.io/Roshan.github.io/Roshan%20Vijay%20Resume.pdf";
+    // const resumeUrl = "http://localhost:3000/Roshan Vijay Resume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Roshan Vijay Resume.pdf"; // This suggests the filename for download
@@ -41,7 +41,7 @@ export default function Home() {
               <NavigationIcon className='btnsize' sx={{ marginRight: '6px', fontSize: '16px', textAlign: 'center' }} />Hire
             </Button>
           </a>
-          <Button className='btn2' variant="contained" sx={{ backgroundColor:'#251d9d'}} onClick={handleResume}>
+          <Button className='btn2' variant="contained" sx={{ backgroundColor: '#251d9d' }} onClick={handleResume}>
             <ArrowDownwardIcon className='btnsize' sx={{ marginRight: '6px', fontSize: '16px', textAlign: 'center' }} />Resume
           </Button>
         </div>
